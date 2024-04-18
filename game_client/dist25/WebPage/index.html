@@ -126,64 +126,6 @@
     <button onclick="toggleVisibility2()">[X]</button>
 </div>
 
-        <!-- Chat Dashboard -->
-        <div id="chatDashboard">
-            <div class="friend-list">
-                <!-- Example list of friends -->
-                <!-- Friend 1 -->
-                <div class="friend" id="friend1" data-menu="menu1" data-content="send-message">
-                    <div class="friend-avatar"></div>
-                    <div class="friend-name">Friend 1</div>
-                </div>
-                <!-- Friend 2 -->
-                <div class="friend" id="friend2" data-menu="menu2" data-content="send-message">
-                    <div class="friend-avatar"></div>
-                    <div class="friend-name">Friend 2</div>
-                </div>
-                <!-- Friend 3 -->
-                <div class="friend" id="friend3" data-menu="menu3" data-content="send-message">
-                    <div class="friend-avatar"></div>
-                    <div class="friend-name">Friend 3</div>
-                </div>
-            </div>
-            <div class="menu">
-                <!-- Menu content -->
-                <div id="menu1" class="menu-options">
-                    <div class="menu-option" onclick="showContent('send-message')">Send Message</div>
-                    <div class="menu-option" onclick="showContent('add-friend')">Add Friend</div>
-                    <div class="menu-option" onclick="showContent('invite-game')">Invite to Game</div>
-                </div>
-                <div id="menu2" class="menu-options">
-                    <div class="menu-option" onclick="showContent('send-message')">Send Message</div>
-                    <div class="menu-option" onclick="showContent('add-friend')">Add Friend</div>
-                    <div class="menu-option" onclick="showContent('invite-game')">Invite to Game</div>
-                </div>
-                <div id="menu3" class="menu-options">
-                    <div class="menu-option" onclick="showContent('send-message')">Send Message</div>
-                    <div class="menu-option" onclick="showContent('add-friend')">Add Friend</div>
-                    <div class="menu-option" onclick="showContent('invite-game')">Invite to Game</div>
-                </div>
-            </div>
-            <div class="content right-section">
-                <!-- Content placeholders for each action -->
-                <div id="send-message" style="display: none;">
-                    <textarea placeholder="Enter your message" style="font-size: 16px; width: 100%; height: 200px; border-radius: 10px;"></textarea>
-                    <button onclick="sendMessage()">Send</button>
-                </div>
-                <div id="add-friend" style="display: none;">
-                    Add Friend Form
-                </div>
-                <div id="invite-game" style="display: none;">
-                    Invite to Game Form
-                </div>
-            </div>
-        </div>
-        
-        
-    
-        
-    
-    
 </div>
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
@@ -539,7 +481,7 @@ showPersonalInformation();
     }
 </script>
 
-<script>
+<!-- <script>
     // JavaScript function to toggle between navbar and chat dashboard
     function toggleChat() {
         var chatDashboard = document.getElementById("chatDashboard");
@@ -552,7 +494,7 @@ showPersonalInformation();
 
     // Add event listener to the chat link
     document.getElementById("chatLink").addEventListener("click", toggleChat);
-</script>
+</script> -->
 
 
  <!-- Bootstrap and Font Awesome scripts -->
